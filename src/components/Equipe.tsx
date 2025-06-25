@@ -7,7 +7,7 @@ import { useState } from "react";
 import BS from '../components/utils/Button';
 import { FadeInOnScroll } from "../components/scroll/Scroll";
 import ModalEquipe from "./modal/Modal-Details";
-import { descriptions } from "./modal/Modal-description";
+import { descriptions } from "./modal/Modal-Description";
 
 export default function Equipe(){
     const [selected, setSelected] = useState<number | null>(null);

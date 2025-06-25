@@ -1,6 +1,6 @@
 import Bg from '../assets/bg-advocacia.png';
 import Nav from '../components/Nav-bar';
-import BS from '../components/utils/Button';
+
 
 export default function Header() {
     return (
@@ -16,8 +16,6 @@ export default function Header() {
                         <p className='text-zinc-500 md:text-lg'>
                             Soluções estratégicas nas principais áreas do Direito, com foco técnico, ética e resultado.
                         </p>
-                        
-                        
                         
                         <div className="hidden z-0 md:block before:content-[''] before:absolute before:inset-0 before:border-8 before:rounded-lg before:max-w-80 before:max-h-[33rem] before:border-[#c49c68] before:top-2/12"></div>
                     </main>

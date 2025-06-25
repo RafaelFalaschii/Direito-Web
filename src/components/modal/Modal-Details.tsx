@@ -1,4 +1,4 @@
-import type { Description } from './Modal-description';
+import type { Description } from './Modal-Description';
 
 type ModalProps = {
   description: Description;
